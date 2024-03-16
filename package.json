@@ -2,7 +2,7 @@
   "name": "conventional-commit-changelog-generator",
   "version": "1.0.0",
   "description": "Generate a changelog based on the conventional commit history for the latest tag.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "compile": "npx @vercel/ncc build index.js --license licenses.txt",
     "test": "echo \"Error: no test specified\" && exit 1"
